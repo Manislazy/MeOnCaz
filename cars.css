@@ -1,0 +1,132 @@
+img {
+    width: 100px;
+    margin: 0%;
+    display: flex;
+
+
+}
+
+.images {
+    align-items: center;
+    justify-content: start;
+    display: grid;
+
+
+}
+
+.images::marker {
+    transform: translateX(.1.5rem);
+}
+
+body {
+    background: rgba(66, 66, 64, 0.973);
+}
+
+.nav-menu {
+    justify-content: center;
+    word-spacing: 1.5em;
+    font-size: large;
+    font-family: sans-serif;
+    justify-self: right;
+    align-items: center;
+
+
+}
+
+button {
+    justify-self: center;
+    align-items: center;
+    column-gap: 5rem;
+    font-weight: var(fint-semi-bild);
+    color: black;
+}
+
+
+.description {
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+    font-size: 20px;
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: linear-gradient(45deg, #f0eded, #3a4452)
+}
+
+.descriptions {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0%;
+    padding: 0%;
+}
+
+.descriptions h2 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.descriptions p {
+    text-align: centre;
+    font-weight: 20px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100px;
+}
+
+nav-menu::ul {
+    text-align: right;
+
+}
+
+.home-article,
+.footer,
+.home-images {
+    display: grid;
+}
+
+button:hover {
+    transform: translateY(.1.5rem);
+}
+
+.home-article {
+    width: 270PX;
+    place-items: centre;
+    padding-block: 1rem;
+}
+
+.home-card {
+    position: relative;
+}
+
+.home-circle {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.home-circle-1,
+.home-circle-2,
+.home-circle-3,
+.home-circle-4,
+.home-circle-5 {
+    background-color: black;
+}
+
+.footer::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0%;
+    text-align: start;
+    text-align-last: start;
+}
